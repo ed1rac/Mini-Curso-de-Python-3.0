@@ -1,3 +1,4 @@
+# coding=utf-8
 # Fatorial implementado de forma recursiva
 
 def fatorial(num):
@@ -12,4 +13,4 @@ def fatorial(num):
 for i in range(0,15+1):
     print("O fatorial de ", i, "é ", fatorial(i))
 
-    
+

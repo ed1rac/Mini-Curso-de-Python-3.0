@@ -14,7 +14,7 @@ Referências:
       https://pt.wikipedia.org/wiki/Verbo
 """
 #verbo = 'programar'
-verbo = str(input("Digite um verbo da regular: "))
+verbo = str(raw_input("Digite um verbo da regular: "))
 terminacao = verbo[-2:]
 radical = verbo[:-2]
 conjuga_ar_presente = ['o','as','a','amos','ais','am']

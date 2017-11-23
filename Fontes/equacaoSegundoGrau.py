@@ -1,5 +1,6 @@
+# coding=utf-8
 """
-Função:
+Funcao:
     Equação do segundo grau
 Autor:
     Ed - Data: 20/05/2016 -

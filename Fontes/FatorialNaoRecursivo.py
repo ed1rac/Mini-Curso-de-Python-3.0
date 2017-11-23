@@ -6,6 +6,17 @@ def fatorial(n):
         j = j * i
     return j
 
+def pedir_numero():
+    numero = int(input('Digite um numero inteiro nao negativo:'))
+    return numero
+
+def tela_boas_vindas():
+    print("*********************************")
+    print("***   Bem vindo ao programa!  ***")
+    print("*********************************")
+
 # Testando...
-for i in range(1, 6):
-    print (i, '->', fatorial(i))
+tela_boas_vindas()
+num = pedir_numero()
+for i in range(1, num+1):
+    print (i, '! ->', fatorial(i))

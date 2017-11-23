@@ -14,3 +14,4 @@ texto = "Hoje é 27/11/2015. O Evento é dia 13/03/2016"
 print("O texto original é: \n", texto)
 print("O texto alterado pela Expressao Regular é:")
 print(re.sub(r'(\d+)/(\d+)/(\d+)', r'\3-\2-\1', texto))
+print('Rodou')

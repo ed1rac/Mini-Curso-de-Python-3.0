@@ -22,8 +22,8 @@ Referências:
 import math
 
 def root(function, x0, x1, precision=0.0001):
-    x0 *= 1.0
-    x1 *= 1.0
+    x0 = 1.0
+    x1 = 1.0
     while (math.fabs(x0-x1) > precision):
         fx0 = function(x0)
         fx1 = function(x1)
@@ -45,5 +45,6 @@ def funcao(x):
     #return math.pow(x, 3)-(9 * x) + 3
     return math.pow(x, 2)-(5*x)+6
 
-x = root (funcao, -5,5 )
+
+x = root(funcao, -5,5,0.00001 )
 print (x)

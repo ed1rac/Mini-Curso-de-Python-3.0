@@ -7,7 +7,7 @@ Autor:
 Observações: COmplexidade: ?
 """
 #Com anotações
-def eq2(a: int, b:int, c: int):
+def eq2(a: int, b: int, c: int):
     """Retorna raízes para equações de 2º grau"""
     if a==0:
         return -c/b

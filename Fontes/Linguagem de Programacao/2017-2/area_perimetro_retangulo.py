@@ -1,11 +1,10 @@
 #entrada
-altura = float(input('Digite a altura de um retângulo: '))
-base = float(input('Digite a base de um retãngulo: '))
+altura = float(input('Digite a altura de um triângiulo retângulo: '))
+base = float(input('Digite a base de um triângulo retãngulo: '))
 
 #processamento
-perimetro = (altura*2.0) + (base*2.0)
-area = base * altura
+area = base * altura/2
 
 #saida
-print('O perímetro é: ', perimetro)
+
 print('a área é: ', area)

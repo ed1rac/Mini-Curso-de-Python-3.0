@@ -46,8 +46,7 @@ class ListaDuplamenteEncadeada(object):
     def remover(self, dado):
         """ Remove um no da lista. """
         # O no atual eh o primeiro no da lista
-        no_atual = self.cabeca
- 
+        no_atual = self.cabeca 
         # Vamos procurar pelo dado que queremos remover
         # Equanto o no atual for valido
         while no_atual is not None:

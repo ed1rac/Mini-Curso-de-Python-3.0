@@ -32,16 +32,16 @@ def MostraMovimento(x, y):
 			string += "\n"    
         print(string)
 	else:
-	    print ("Nao ha passeio possivel\n")
+		print ("Nao ha passeio possivel\n")
 
 dx = [2, 1, -1, -2, -2, -1, 1, 2] # Para calculo das coordenadas dos movimentos possiveis do cavalo (8 movimentos possiveis)
 dy = [1, 2, 2, 1, -1, -2, -2, -1] # Para calculo das coordenadas dos movimentos possiveis do cavalo (8 movimentos possiveis)
 
 print ("Digite o num de posicoes do tabuleiro: (ex.: 6) <= 10")
 num = int(input()) # Numero de posicoes do tabuleiro
-print "Digite a posicao x onde o cavalo deve iniciar: (ex.: 1) >= 0"
+print ("Digite a posicao x onde o cavalo deve iniciar: (ex.: 1) >= 0")
 x = int(input()) # Numero de posicoes do tabuleiro
-print "Digite a posicao y onde o cavalo deve iniciar: (ex.: 2) >= 0"
+print ("Digite a posicao y onde o cavalo deve iniciar: (ex.: 2) >= 0")
 y = int(input()) # Numero de posicoes do tabuleiro
 numSqr = num * num # Numero total de casas
 

@@ -6,19 +6,19 @@ by Ed
 # merge
 def merge(a,b):
     """ Função para juntar os dois arrays """
-    c = []
+    ordenado = []
     while len(a) != 0 and len(b) != 0:
         if a[0] < b[0]:
-            c.append(a[0])
+            ordenado.append(a[0])
             a.remove(a[0])
         else:
-            c.append(b[0])
+            ordenado.append(b[0])
             b.remove(b[0])
     if len(a) == 0:
-        c += b
+        ordenado += b
     else:
-        c += a
-    return c
+        ordenado += a
+    return ordenado
 
 
 # Codigo do mergestort

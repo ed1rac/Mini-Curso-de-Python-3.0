@@ -2,7 +2,7 @@ class Lista:
     def __init__(self):
         self.items = []
 
-    def __str__(self):
+    def __str__(self):          #toString do Java
         return str(self.items)
 
     def insere(self, item):
@@ -26,3 +26,4 @@ lista.insere(742)
 lista.exibe_lista()
 lista.remove(742)
 lista.exibe_lista()
+print(lista.estaVazia())

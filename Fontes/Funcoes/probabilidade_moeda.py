@@ -9,7 +9,7 @@ Observações:  ?
 def gera_matriz_lancamentos(matriz, tamanho):
 	import random
 	matriz_faces = []
-	print 'Gerando...'
+	print ('Gerando...')
 	for x in range(tamanho):
 		num = random.randint(1,2) #1 = cara, 2 = coroa
 		matriz.append (num)
@@ -19,7 +19,7 @@ def gera_matriz_lancamentos(matriz, tamanho):
 		else:
 			matriz_faces.append('Coroa')
 
-	print matriz_faces
+	print (matriz_faces)
 
 
 def calcula_probabilidades(matriz, tamanho):
@@ -35,7 +35,7 @@ def calcula_probabilidades(matriz, tamanho):
 	probabilidade_cara = float(soma_cara)/float(tamanho)*100
 	probabilidade_coroa = float(soma_coroa)/float(tamanho)*100	
 	
-	print 'Foram lancadas ' + str(soma_cara) + ' caras e ' + str(soma_coroa) + ' coroas'
+	print ('Foram lancadas ' + str(soma_cara) + ' caras e ' + str(soma_coroa) + ' coroas')
 
 	probabilidades = []
 	probabilidades.append(probabilidade_cara)
@@ -45,10 +45,10 @@ def calcula_probabilidades(matriz, tamanho):
 
 
 matriz=[]
-tamanho = int(raw_input('Digite o tamanho da matriz de lancamentos: '))
+tamanho = int(input('Digite o tamanho da matriz de lancamentos: '))
 gera_matriz_lancamentos(matriz, tamanho)
 #print 'Um para cara e 2 para coroa'
 #print matriz
 vetor_probabilidades = []
 vetor_probabilidades = calcula_probabilidades(matriz, tamanho)
-print 'As probabilidades sao: %f%% e %f%%' % (vetor_probabilidades[0], vetor_probabilidades[1])
+print(f'As probabilidades sao: {vetor_probabilidades[0]} e {vetor_probabilidades[1]}')

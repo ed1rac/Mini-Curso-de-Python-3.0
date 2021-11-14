@@ -12,9 +12,9 @@ def eq2(a: int, b: int, c: int):
     if a==0:
         return -c/b
     else:
-        d = (b**2 - 4*a*c)**0.5
-        x1 = (-b - d) / (2*a)
-        x2 = (-b + d) / (2*a)        
+        delta = (b**2 - 4*a*c)**0.5
+        x1 = (-b - delta) / (2*a)
+        x2 = (-b + delta) / (2*a)        
         return x1,x2
 
 #testando a função

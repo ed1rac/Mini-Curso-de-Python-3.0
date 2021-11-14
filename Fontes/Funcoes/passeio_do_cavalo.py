@@ -23,16 +23,16 @@ def MostraMovimento(x, y):
 	done = TentaMover(2, x, y)
 	string = ""
 	if done == True:
-		for x in xrange(0, num):
-			for y in xrange(0, num):
+		for x in range(0, num):
+			for y in range(0, num):
 				if tabuleiro[x][y] < 10:
 					string += "0" + str(tabuleiro[x][y]) + " "
 				else:
 					string += str(tabuleiro[x][y]) + " "
-			string += "\n"    
-        print(string)
+					string += "\n"
+					print(string)
 	else:
-		print ("Nao ha passeio possivel\n")
+		print("Nao ha passeio possivel\n")
 
 dx = [2, 1, -1, -2, -2, -1, 1, 2] # Para calculo das coordenadas dos movimentos possiveis do cavalo (8 movimentos possiveis)
 dy = [1, 2, 2, 1, -1, -2, -2, -1] # Para calculo das coordenadas dos movimentos possiveis do cavalo (8 movimentos possiveis)
@@ -48,8 +48,8 @@ numSqr = num * num # Numero total de casas
 print()
 
 tabuleiro = [[],[],[],[],[],[],[],[],[],[]] # Tabuleiro maximo 20x20
-for x in xrange(0, num):
-	for y in xrange(0, num):
+for x in range(0, num):
+	for y in range(0, num):
 		tabuleiro[x].append(0)
 #print tabuleiro
 MostraMovimento(x, y)

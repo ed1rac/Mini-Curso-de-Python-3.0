@@ -1,54 +1,49 @@
-# Mini-Curso-de-Python-3.0
+# 🐍 Minicurso de Python 3.0 — Prof. Edkallenn
 
-Minicurso de Python do professor Ed é um projeto do professor Edkallenn com o objetivo de tornar público todos os programas, slides, ferramentas, e-books e livros utilizados nas aulas do Minicurso de Python do curso de Sistemas de Informação da Uninorte.
-O Minicurso foi ministrado a primeira vez durante o SASI (Semana Acadêmica de Sistemas de Informação da Uninorte) de 2014. Depois disso ele já foi ministrado outras duas vezes, uma durante o 2º e o 3º Encontro de Sistemas de Informação da Uninorte.
+<div align="center">
 
-# Sumário
-[Descrição do projeto](#Mini-Curso-de-Python-3-0)
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg?logo=python)](https://www.python.org/)
+[![Semana Acadêmica](https://img.shields.io/badge/Evento-SASI_%26_Encontro_SI-purple.svg)](https://github.com/ed1rac/Mini-Curso-de-Python-3.0)
+[![Material Didático](https://img.shields.io/badge/Conteúdo-Slides_%2B_Exercícios_%2B_Ebooks-green.svg)](https://github.com/ed1rac/Mini-Curso-de-Python-3.0)
 
-[Programas feitos em sala de aula](https://github.com/ed1rac/Mini-Curso-de-Python-3.0/tree/master/Fontes)
+**Acervo completo de slides, códigos de exemplo, ferramentas e e-books utilizados nos minicursos práticos de Python ministrados pelo Prof. Edkallenn Lima.**
 
-[Documentos](https://github.com/ed1rac/Mini-Curso-de-Python-3.0/tree/master/Documentos)
+</div>
 
-[Python?](#Python)
+---
 
-[Slides utilizados no minicurso](https://github.com/ed1rac/Mini-Curso-de-Python-3.0/tree/master/PDF's)
+## 🎯 Sobre o Minicurso
 
-[Livros, ebooks, tutoriais e materiais de apoia do minicurso](https://github.com/ed1rac/Mini-Curso-de-Python-3.0/tree/master/Material%20de%20Apoio)
+Este minicurso foi originalmente criado e apresentado na **SASI (Semana Acadêmica de Sistemas de Informação da Uninorte)** e reeditado em múltiplos encontros acadêmicos. O objetivo é fornecer uma imersão prática para iniciantes e intermediários na linguagem Python, cobrindo desde a sintaxe elementar até manipulação de arquivos, bibliotecas científicas e desenvolvimento web.
 
-[Contatos do professor:](#Contatos-do-professor)
+---
 
-# Mini-Curso-de-Python-3.0
+## 📂 Organização das Pastas
 
-Minicurso de Python do professor Ed é um projeto do professor Edkallenn com o objetivo de tornar público todos os programas, slides, ferramentas, e-books e livros utilizados nas aulas do Minicurso de Python do curso de Sistemas de Informação da Uninorte.
-O Minicurso foi ministrado a primeira vez durante o SASI (Semana Acadêmica de Sistemas de Informação da Uninorte) de 2014. Depois disso ele já foi ministrado outras duas vezes, uma durante o 2º e o 3º Encontro de Sistemas de Informação da Uninorte.
+```text
+Mini-Curso-de-Python-3.0/
+├── Apresentações/    # Slides completos em formato PDF para acompanhamento das aulas
+├── Fontes/           # Mais de 170 scripts Python (.py) com exemplos e exercícios resolvidos
+├── Documentos/       # E-books de referência, apostilas e notas de aula
+├── Material de Apoio/# Folhas de dicas (cheatsheets) e guias rápidos de sintaxe
+└── Downloads/        # Instaladores e ferramentas auxiliares
+```
 
-## Python?
-Python é uma linguagem  leve, rápida e eficiente para a criação desde pequenos programas até o suporte e desenvolvimento de sistemas mais ambiciosos. Para entusiastas, amantes da tecnologia e iniciantes é uma linguagem ideal para o desenvolvimento dos primeiros programas
+---
 
-Os Commits são todos efetuados dentro de sala enquanto os programas vão sendo codificados junto com os alunos.
+## 🚀 Como Executar os Exemplos
 
-Adições serão sempre efetuadas além de Commits relacionados às maratonas de programação que, porventura, surgirem.
-
-~~Serão, futuramente,~~ (Já estão) [disponibilizadas](https://github.com/ed1rac/Mini-Curso-de-Python-3.0/tree/master/PDF's) todas as apresentações da disciplina além de uma ideia de projeto para deixar disponíveis programas em Python relacionados à Estruturas de Dados que estão na plataforma URI On-line Judge.
-
-## Contatos do professor:
-
-- Página pessoal: https://edkallenn.github.io/
-- e-mail: edkallenn@yahoo.com.br
-- Twitter: @edkallenn
-- Facebook: https://www.facebook.com/edkallenn
-- Instagram: @edkallenn
-- Blog: https://professored.wordpress.com/
-- Linkedin: https://www.linkedin.com/in/edkallenn/
-
-Até mais e bons programas!
+```bash
+# Executar qualquer script da pasta de fontes:
+cd Fontes
+python3 exemplo.py
+```
 
 ---
 
 ## ☕ Apoie o Projeto (Me Pague um Café / Buy Me a Coffee)
 
-Este projeto é desenvolvido com dedicação e carinho. Se este projeto foi útil para os seus estudos, trabalho ou produtividade diária e você quiser apoiar o desenvolvimento contínuo:
+Este projeto é desenvolvido com dedicação e carinho à disseminação do conhecimento e da tecnologia. Se ele foi útil para os seus estudos, aulas, trabalho ou produtividade diária e você quiser apoiar o desenvolvimento contínuo:
 
 - ☕ **Buy Me a Coffee (Internacional / Cartão / QR Code)**:
   - 👉 **[https://buymeacoffee.com/edkallenn](https://buymeacoffee.com/edkallenn)**

@@ -1,13 +1,12 @@
 # 🐍 Minicurso de Python 3.0 — Prof. Edkallenn
 
 <div align="center">
-
-[![Python](https://img.shields.io/badge/Python-3.x-blue.svg?logo=python)](https://www.python.org/)
-[![Semana Acadêmica](https://img.shields.io/badge/Evento-SASI_%26_Encontro_SI-purple.svg)](https://github.com/ed1rac/Mini-Curso-de-Python-3.0)
-[![Material Didático](https://img.shields.io/badge/Conteúdo-Slides_%2B_Exercícios_%2B_Ebooks-green.svg)](https://github.com/ed1rac/Mini-Curso-de-Python-3.0)
-
-**Acervo completo de slides, códigos de exemplo, ferramentas e e-books utilizados nos minicursos práticos de Python ministrados pelo Prof. Edkallenn Lima.**
-
+  <p>
+    <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.x-blue.svg?logo=python" alt="Python"></a>
+    <a href="https://github.com/ed1rac/Mini-Curso-de-Python-3.0"><img src="https://img.shields.io/badge/Evento-SASI_%26_Encontro_SI-purple.svg" alt="Semana Acadêmica"></a>
+    <a href="https://github.com/ed1rac/Mini-Curso-de-Python-3.0"><img src="https://img.shields.io/badge/Conteúdo-Slides_%2B_Exercícios_%2B_Ebooks-green.svg" alt="Material Didático"></a>
+  </p>
+  <p><strong>Acervo completo de slides, códigos de exemplo, ferramentas e e-books utilizados nos minicursos práticos de Python ministrados pelo Prof. Edkallenn Lima.</strong></p>
 </div>
 
 ---
